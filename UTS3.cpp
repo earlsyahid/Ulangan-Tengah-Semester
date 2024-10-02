@@ -2,22 +2,18 @@ include <iostream>
 
 using namespace std;
 
-// Fungsi untuk penjumlahan
 int penjumlahan(int a, int b) {
     return a + b;
 }
 
-// Fungsi untuk pengurangan
 int pengurangan(int a, int b) {
     return a - b;
 }
 
-// Fungsi untuk perkalian
 int perkalian(int a, int b) {
     return a * b;
 }
 
-// Fungsi untuk pembagian
 float pembagian(int a, int b) {
     if (b == 0) {
         cout << "Tidak dapat membagi dengan nol!" << endl;
